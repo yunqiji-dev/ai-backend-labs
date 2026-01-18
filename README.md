@@ -17,9 +17,9 @@ The name explains my approach to modern engineering:
 
 ---
 
-## 🏛️ Pillars (01–03)
+## 🏛️ Pillars (01–04)
 
-The lab is divided into three areas that I am actively exploring.  
+The lab is divided into four areas that I am actively exploring.  
 Each lab links back to a concept in `foundations`.
 
 - **[01-foundational-courses](./01-foundational-courses)** | **Solid Foundations** Practicing the basics from world-class courses. If the foundation is weak, the system will fail.
@@ -27,6 +27,8 @@ Each lab links back to a concept in `foundations`.
 - **[02-backend-development](./02-backend-development)** | **Backend Systems** Learning to build **server-side services**, manage data, and ensure system reliability. The goal is stability and performance.
 
 - **[03-ai-implementations](./03-ai-implementations)** | **AI Integration** Exploring how to add "smart" features to projects and how to use AI to improve my own coding workflow.
+
+- **[04-freelance-training](./04-freelance-training)** | **Freelance Practice** Learning to take on Python freelance projects (Data Cleaning, File Organization) on Fiverr. Building practical skills while earning income, then upgrading projects to backend services.
 
 ---
 
