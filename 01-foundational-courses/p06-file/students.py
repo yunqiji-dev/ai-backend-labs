@@ -99,3 +99,52 @@ with open("students.csv") as file:
 
 for studnet in sorted(students, key=lambda student: student["name"]):
     print(f"{studnet['name']} is in {student['house']}")
+
+
+# Example 8
+import csv
+
+student = []
+
+with open("students.csv") as file:
+    reader = csv.reader(file)
+    for name, home in reader:
+        student.append({"name": name, "home": home})
+
+for studnet in sorted(students, key=lambda student: student["name"]):
+    print(f"{studnet['name']} is in {student['house']}")
+
+
+# Example 8
+import csv
+
+student = []
+
+with open("students.csv") as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        student.append({"name": row["name"], "home": ["home"]})
+
+for studnet in sorted(students, key=lambda student: student["name"]):
+    print(f"{studnet['name']} is in {student['house']}")
+
+
+# Example 9
+import csv
+
+name = input("What's your name? ")
+home = input("What's your home? ")
+
+with open("student.csv", "a") as file:
+    writer = csv.writer(file)
+    writer.wirterow([name, home])
+
+#  Example 10
+import csv
+
+name = input("What's your name? ")
+home = input("What's your home? ")
+
+with open("student.csv", "a") as file:
+    writer = csv.DictWriter(file, filename=["name", "home"])
+    writer.wirterow({"name": name, "home": home})
