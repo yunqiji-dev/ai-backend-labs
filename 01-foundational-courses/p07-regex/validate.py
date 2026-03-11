@@ -69,3 +69,80 @@ if re.search(".+@.+", email):
     print("Valid")
 else:
     print("Invaild")
+
+
+# Example 8
+import re
+
+email = input("What's your email? ").strip()
+
+if re.search(r".+@.+\.edu", email):
+    print("Valid")
+else:
+    print("Invaild")
+
+
+# Example 9
+import re
+
+email = input("What's your email? ").strip()
+
+if re.search(r"^.+@.+\.edu$", email):
+    print("Valid")
+else:
+    print("Invaild")
+
+
+# Example 10
+import re
+
+email = input("What's your email? ").strip()
+
+if re.search(r"^[^@]+@[^@]+\.edu$", email):
+    print("Valid")
+else:
+    print("Invaild")
+
+
+# Example 11
+import re
+
+email = input("What's your email? ").strip()
+
+if re.search(r"^[a-zA-Z0-9_]+@[a-zA-Z0-9_]+\.edu$", email):
+    print("Valid")
+else:
+    print("Invaild")
+
+
+# Example 12
+import re
+
+email = input("What's your email? ").strip()
+
+if re.search(r"^\w+@\w+\.edu$", email):
+    print("Valid")
+else:
+    print("Invaild")
+
+
+# Example 13
+import re
+
+email = input("What's your email? ").strip()
+
+if re.search(r"^\w+@\w+\.edu$", email, re.IGNORECASE):
+    print("Valid")
+else:
+    print("Invaild")
+
+
+# Example 14
+import re
+
+email = input("What's your email? ").strip()
+
+if re.search(r"^\w+@(\w+\.)?\w+\.edu$", email, re.IGNORECASE):
+    print("Valid")
+else:
+    print("Invaild")
