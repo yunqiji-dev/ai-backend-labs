@@ -73,3 +73,42 @@ def get_student():
 if __name__ == "__main__":
     main()
 """
+
+
+#  Example 5
+"""
+def main():
+    studnet = get_student()
+    print(f"{student['name']} from {student['house']}")
+
+
+def get_student():
+    student = {}
+    student['name'] = input("What's your name: ")
+    student['house'] = input("What's your house: ")
+    return student
+
+
+if __name__ == "__main__":
+    main()
+"""
+
+
+#  Example 6
+"""
+def main():
+    studnet = get_student()
+    if student["name"] = "Padma"
+        student["house"] = "Ravenclaw"
+    print(f"{student['name']} from {student['house']}")
+
+
+def get_student():
+    name = input("What's your name: ")
+    house= input("What's your house: ")
+    return {"name": name, "house": house}
+
+
+if __name__ == "__main__":
+    main()
+"""
