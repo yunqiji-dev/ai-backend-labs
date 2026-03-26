@@ -40,7 +40,7 @@ if __name__ == "__main__":
 #  Example 3
 """
 def main():
-    studnet = get_student()
+    student = get_student()
     print(f"{student[0]} from {student[1]}")
 
 
@@ -58,7 +58,7 @@ if __name__ == "__main__":
 #  Example 4
 """
 def main():
-    studnet = get_student()
+    student = get_student()
     if student[0] == "Padma":
         student[1] == "Ravenclaw"
     print(f"{student[0]} from {student[1]}")
@@ -78,7 +78,7 @@ if __name__ == "__main__":
 #  Example 5
 """
 def main():
-    studnet = get_student()
+    student = get_student()
     print(f"{student['name']} from {student['house']}")
 
 
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 #  Example 6
 """
 def main():
-    studnet = get_student()
+    student = get_student()
     if student["name"] = "Padma"
         student["house"] = "Ravenclaw"
     print(f"{student['name']} from {student['house']}")
