@@ -171,6 +171,7 @@ if __name__ == "__main__":
 """
 
 
+"""
 # Example 7
 class Student:
     name: str
@@ -216,6 +217,36 @@ def get_student():
 
 if __name__ == "__main__":
     main()
+"""
 
+
+# Example 8
+class Student:
+    name: str
+    house: str
+
+    def __init__(self, name: str, house: str):
+        if not name:
+            raise ValueError("Missing name")
+        if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
+            raise ValueError("Invalid house")
+        self.name = name
+        self.house = house
+
+    def __str__(self):
+        return f"{self.name} from {self.house}"
+
+def main():
+    student = get_student()
+    print(student)
+
+def get_student():
+    name: str = input("Name: ")
+    house: str = input("House: ")
+    student = Student(name, house)
+    return student
+
+if __name__ == "__main__":
+    main()
 
 
