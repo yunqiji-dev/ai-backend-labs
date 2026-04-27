@@ -8,8 +8,10 @@ class Hat:
 hat = Hat()
 hat.sort("Harry")
 """
+
+
 # Example 2
-import random
+"""import random
 
 
 class Hat:
@@ -22,4 +24,20 @@ class Hat:
 
 
 hat = Hat()
-hat.sort("Harry")
+hat.sort("Harry")"""
+
+
+# Example 3
+import random
+
+
+class Hat:
+    houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
+
+    @classmethod
+    def sort(cls, name):
+        house = random.choice(cls.houses)
+        print(name, "is in", house)
+
+
+Hat.sort("Harry")
