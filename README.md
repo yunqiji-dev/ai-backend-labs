@@ -22,7 +22,7 @@ The name explains my approach to modern engineering:
 The lab is divided into four areas that I am actively exploring.  
 Each lab links back to a concept in `foundations`.
 
-- **[01-foundational-courses](./01-foundational-courses)** | **Solid Foundations** Practicing the basics from world-class courses. If the foundation is weak, the system will fail.
+- **[01-foundational-courses](./01-foundational-courses)** | **Solid Foundations** Practicing the basics through world-class courses and small self-set exercises. If the foundation is weak, the system will fail.
 
 - **[02-backend-development](./02-backend-development)** | **Backend Systems** Learning to build **server-side services**, manage data, and ensure system reliability. The goal is stability and performance.
 
